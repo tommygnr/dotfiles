@@ -3,7 +3,6 @@
 name = Tom Corrigan
 email = tom.corrigan@catch.com.au
 [core]
-	excludesfile = /Users/TomCorrigan/.gitignore_global
 	autocrlf = input
 [color]
 	ui = true
@@ -34,3 +33,5 @@ email = tom.corrigan@catch.com.au
 	gpgsign = true
 [url "ssh://git@github.com/"]
 	insteadOf = https://github.com/
+[rerere]
+	enabled = true
